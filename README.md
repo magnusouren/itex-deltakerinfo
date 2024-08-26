@@ -8,6 +8,9 @@ Dette repoet ble laget for å forenkle oversikten over deltakere og påmeldinger
 
 Alt av data er eksportert fra arrangementsidene på gamle OW og lagret lokalt i dette repoet i mappen `data_fra_ow`. Se mer om dette i [README.md](data_fra_ow/README.md) i mappen.
 
+For å laste ned disse .json filene går du til arrangementsiden på old. Deretter trykker du "Administasjon" øverst i høyre hjørne. Deretter trykker du "Påmeldingsliste JSON". Filen som lastes ned legges i mappen `data_fra_ow/`i riktig mappe, og du bør endre navnet på filen til bedriftsnavn.json dersom det er for et av arrangementene. 
+
+
 ## Hvordan fungere dette?
 
 Du må kjøre python scriptet `itex.py`for å generere filer med ulike oversikter over påmeldinger og deltakere.
